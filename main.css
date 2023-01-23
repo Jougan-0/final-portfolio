@@ -2,7 +2,7 @@
 body{
     margin: 0px;
     font-family: 'Poppins', sans-serif;
-    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(/images/hero.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(/images/hero.jpg);
     background-size:cover ;
     background-position: center;
 }
