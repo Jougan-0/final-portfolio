@@ -26,6 +26,7 @@ nav{
     color: aliceblue;
     font-size: 40px;
     display: block;
+    text-shadow: 5px 12px 10px rgba(255, 255, 255, 0.676);
 }
 .logoimage{
     border-radius: 50%;
@@ -34,12 +35,14 @@ nav{
     background-image: url("/images/model.jpg");
     margin-right: 2rem;
     transition: 0.3s;
+    box-shadow: 10px 12px 50px rgba(0, 255, 255, 0.676);
 }
 .logoimage:hover{
     transform: scale(1.5);
 }
 span{
-    color: #ea1538;
+    color: rgb(234, 21, 56);
+    text-shadow: 5px 12px 10px rgba(231, 0, 0, 0.676);
 }
 nav ul li{    
     display: inline-block;
@@ -52,11 +55,12 @@ nav ul li a{
     color: white;
     font-size: 30px;
     position: relative;
+    text-shadow: 2px 4px 5px rgba(255, 255, 255, 0.676);
 }
 nav ul li a:hover{
     color: #ea1538;
     transition: 0.3s;
-    
+    text-shadow: 4px 2px 5px rgba(247, 0, 0, 0.676);
 }
 .logo-text{
     display: flex;
