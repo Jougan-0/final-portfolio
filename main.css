@@ -45,7 +45,7 @@ span{
     text-shadow: 5px 12px 10px rgba(231, 0, 0, 0.676);
 }
 nav ul li{    
-    display: inline-block;
+    display:inline;
     list-style-type: none;
     padding: 10px 20px;
     margin-right: 2rem;
@@ -149,4 +149,47 @@ footer ul li a img:hover{
 }
 footer ul li a img:hover > .lables{
     transform: translateY(-120px);
+}
+
+.toogle-btn{
+    display: none;
+    position: absolute;
+    background: transparent;
+    right: 1rem;
+    margin-top:1rem;
+    
+}
+.menu-navbar{
+    max-width: 70px;
+}
+@media(max-width:1360px){
+     .navbar-links {
+        display: none;
+        justify-content: flex-end;
+        flex-direction: column;
+        width: 100%;
+    }
+    nav ul li {
+        display: flex;
+        justify-content: flex-end;
+    }
+    nav ul li a{
+        justify-content: center;
+    }
+    .toogle-btn{
+        display: flex;
+        cursor: pointer;
+        border: none;
+        transition: 0.3s;
+    }
+    .toogle-btn:hover{
+        transform: scale(1.2);
+        background-color: rgba(123, 119, 119, 0.307);
+    }
+    nav{
+        flex-direction: column;
+    }
+    .navbar-links.active{
+        display: flex;
+    }
 }
