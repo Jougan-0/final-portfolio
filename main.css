@@ -202,6 +202,7 @@ footer ul li a img:hover{
     }
     .content{
         font-size: small;
+        margin-top: 1.5rem;
     }
     .card:hover >.content
     {
