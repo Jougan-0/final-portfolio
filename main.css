@@ -24,25 +24,25 @@ nav{
 }
 .logo{
     color: aliceblue;
-    font-size: 35px;
+    font-size: 27px;
     display: block;
     text-shadow: 5px 12px 10px rgba(255, 255, 255, 0.676);
 }
 .logoimage{
     border-radius: 50%;
-    width: 100px;
-    height: 100px;
+    width: 70px;
+    height: 70px;
     background-image: url("./images/model.jpg");
     margin-right: 2rem;
     transition: 0.3s;
-    box-shadow: 10px 12px 50px rgba(0, 255, 255, 0.676);
+    box-shadow: 10px 12px 50px #00ffffac;
 }
 .logoimage:hover{
     transform: scale(1.5);
 }
 span{
-    color: rgb(234, 21, 56);
-    text-shadow: 5px 12px 10px rgba(231, 0, 0, 0.676);
+    color: #00ffffac;
+    text-shadow: 5px 12px 10px #00ffffac;
 }
 nav ul li{    
     display:inline;
@@ -58,9 +58,9 @@ nav ul li a{
     text-shadow: 2px 4px 5px rgba(255, 255, 255, 0.676);
 }
 nav ul li a:hover{
-    color: #ea1538;
+    color: #00ffffac;
     transition: 0.3s;
-    text-shadow: 4px 2px 5px rgba(247, 0, 0, 0.676);
+    text-shadow: 4px 2px 5px #00ffffac;
 }
 .logo-text{
     display: flex;
@@ -74,7 +74,7 @@ nav ul li a::after{
     bottom: -10px;
     left:50%;
     transform: translateX(-50%);
-    background: rgb(246, 0, 0);
+    background: #00ffffac;
     transition:width 0.3s ;
 }
 
@@ -82,17 +82,17 @@ nav ul li a:hover::after{
     width: 70%;
 }
 .card{
-    width: 500px;
-    height: 400px;
+    width: 300px;
+    height: 200px;
     border-radius: 10px;
     box-shadow: 0px 5px 20px rgba(0,0,0,0.5);
     transition: 0.7s;
     padding: 30px 50px;
     background-color: rgb(12, 12, 12);
-   cursor: pointer;
+    cursor: pointer;
 }
 .card:hover{
-    height: 500px;
+    height: 350px;
     background-color: rgb(51, 59, 58);
 }
 .imgbox{
@@ -107,8 +107,8 @@ nav ul li a:hover::after{
     box-shadow: 0px 5px 20px rgba(255, 255, 255, 0.676);
 }
 .content{
-    font-size: x-large;
-    padding: 10px 20px;
+    font-size: large;
+    padding: 10px 15px;
     text-align: center;
     transform: translateY(-350px);
     color:#00fffb;
@@ -117,13 +117,13 @@ nav ul li a:hover::after{
 }
 .card:hover >.content{
     opacity: 1;
-    transform: translateY(-250px);
+    transform: translateY(-215px);
 }
 technology{
     display: flex;
     justify-content: flex-end;
-    margin-right: 12rem;
-    margin-top: 4rem;
+    margin-right: 16rem;
+    margin-top: 8rem;
     flex-wrap: wrap; 
     height: 500px;
 }
@@ -131,8 +131,9 @@ footer{
     display: flex;
     color: white;
     justify-content:center;
-    margin-top: 6.2rem;
+    margin-top: 4.2rem;
     flex-wrap: wrap;
+    margin-bottom: 4rem;
 }
 footer ul li{
     display: inline-block;
