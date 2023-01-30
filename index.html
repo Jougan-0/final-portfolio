@@ -12,18 +12,31 @@
     <div class="hero">
         <nav>
             <div class="logo-text">
-            <img src="./images/model.jpg" class="logoimage">
+            <a href="#"><img src="./images/model.jpg" class="logoimage"></a>
             <h1 class="logo">Shlok <span>Mishra</span></h1></div>
             <ul class="navbar-links">
-                <li><a href="#">Home</a></li>
                 <li><a href="#">Web Projects</a></li>
                 <li><a href="#">Game Dev Projects</a></li>
                 <li><a href="#">Blogs</a></li>
             </ul>
             <button class="toogle-btn"><img src="./images/menu.png" class="menu-navbar"></button>
         </nav>
+        <hr>
         <technology>
+            <div class="wrapper">
+                <div class="cols cols0">
+                <span class="topline">Hello</span>
+                <h1>I'm a <span class="multitext"></span></h1>
+                <p>I just like doing things till I think I am good at it.</p>
+                <!-- <div class="btn">
+                    <button>Download Cv</button>
+                    <button>Hire Me</button>
+                </div> -->
+                </div>
+            </div>
+            <div class="right-img">
         <div class="card">
+            <img src="./images/splash.png" class="splash">
         <div class="imgbox">
             <img id="img" src="./images/technology.jpg">
         </div>
@@ -34,7 +47,7 @@
             </p>
         </div>
     </div>
-    
+</div>
 </technology>
     <footer>
         <ul>
@@ -44,6 +57,17 @@
         </ul>
     </footer>
     <script src="main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+        var typingeffect=new Typed(".multitext",{
+    strings:["Game Developer","Web Developer","Coder"],
+    loop:true,
+    typeSpeed:100,
+    backSpeed:80,
+    backDelay:1500
+});
+
+    </script>
 </div>
 </body>
 </html>
