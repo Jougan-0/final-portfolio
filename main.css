@@ -110,13 +110,13 @@ nav ul li a:hover::after{
     cursor: pointer;
     top:0%;
     right: 0%;
-    animation: animateuser 2.5s linear infinite;
+    animation: animateuser 1.5s linear infinite;
 }
 
 @keyframes animateuser {
     50%{
         top: 7%;
-        right: 2%;
+        right: 4%;
     }
 }
 .card .splash{
@@ -183,7 +183,7 @@ technology{
     
     flex-wrap: wrap; 
     height: 65vh;
-    width: 90%;
+   width: 90%;
     
 }
 .wrapper{
@@ -192,7 +192,7 @@ technology{
     height: 100%;
     justify-content: center;
     align-items: center;
-    padding: 0% 10%;
+    padding-left: 10%;
     overflow: hidden;
     
 }
@@ -309,6 +309,17 @@ footer ul li a img:hover{
     }
     
 }
+@media (max-width:1483px) {
+ .wrapper h1{
+     font-size: 2em; 
+     font-weight: 400;  
+    }
+    .wrapper p{
+        font-size: 1em;
+
+}
+    
+}
 @media(max-width:1160px){
      .navbar-links {
         display: none;
@@ -343,6 +354,11 @@ footer ul li a img:hover{
     technology{
         justify-content: center;
         margin-right: 0rem;
+        flex-direction: row;
+        width: 100%;
+        }
+    .wrapper{
+        width: 100%;
     }
     .card{
         width: 270px;
@@ -359,6 +375,31 @@ footer ul li a img:hover{
     .card:hover >.content
     {
         transform: translateY(-170px);
+    }  
+    .wrapper::before{
+        height: 170px;
+        width: 170px;
+        top: 57%;
+    }
+    @keyframes object1 {
+        50%{
+            left: -17%;
+            top:62%;
+        }
+    }
+    .wrapper::after{
+        height: 100px;
+        width: 100px;
+        z-index: -20;
+    } 
+    footer{
+        margin-top: 24rem;
+        margin-bottom:0 ;
+    }
+    .content{
+        font-size: 0.95em;
+        font-weight: 600;
+        margin-top: 1rem;
     }
 }
 @media(max-width:600px){
@@ -366,7 +407,7 @@ footer ul li a img:hover{
         align-items: flex-start;
     }
     .logo{
-        font-size: 20px;
+        font-size: 70px;
     }
     .logo-text
     {
@@ -393,6 +434,67 @@ footer ul li a img:hover{
         padding-left: 1rem;
     }
     footer{
-        margin-top: 0.2rem;
+        margin-top: 24rem;
+        margin-bottom:0 ;
     }
+    footer{
+        display: flex;
+    }
+
+    .content{
+        font-size: 0.9em;
+        font-weight: 600;
+        margin-top: 1rem;
+    }
+    .wrapper p{
+        font-size: 1.4em;
+
+}
+    .wrapper::before{
+        height: 150px;
+        width: 150px;
+        top: 57%;
+    }
+    @keyframes object1 {
+        50%{
+            left: -17%;
+            top:62%;
+        }
+    }
+    .wrapper::after{
+        height: 80px;
+        width: 80px;
+        z-index: -20;
+    }
+}
+@media(max-width:400px)
+{
+    .wrapper::before{
+        height: 100px;
+        width: 100px;
+        top: 57%;
+    }
+    .wrapper::after{
+        height: 50px;
+        width: 50px;
+        z-index: -20;
+    }
+    technology{
+        justify-content: space-between;
+    }
+    .card{
+        width: 250px;
+        margin-left: 1rem;
+    }
+    .card:hover{
+        width: 250px;
+    }
+    .wrapper h1{
+        font-size: 1.5em; 
+        font-weight: 400;  
+       }
+       .wrapper p{
+           font-size: 1em;
+   
+   }
 }
