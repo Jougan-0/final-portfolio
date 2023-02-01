@@ -434,6 +434,7 @@ footer ul li a img:hover{
         padding-left: 1rem;
     }
     footer{
+        position: fixed;
         margin-top: 29rem;
         margin-bottom:0 ;
     }
@@ -442,7 +443,7 @@ footer ul li a img:hover{
     }
 
     .content{
-        font-size: 0.9em;
+        font-size: 0.7em;
         font-weight: 600;
         margin-top: 1rem;
     }
