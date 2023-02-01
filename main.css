@@ -363,6 +363,8 @@ footer ul li a img:hover{
     .card{
         width: 270px;
         height: 150px;
+        animation: animateuser 0s linear infinite;
+
     }
     .card:hover{
         width: 300px;
