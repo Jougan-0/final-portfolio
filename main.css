@@ -434,9 +434,10 @@ footer ul li a img:hover{
         padding-left: 1rem;
     }
     footer{
-        position: fixed;
+        position: relative;
         margin-top: 29rem;
         margin-bottom:0 ;
+        z-index: 100;
     }
     footer{
         display: flex;
@@ -467,6 +468,19 @@ footer ul li a img:hover{
         width: 80px;
         z-index: -20;
     }
+    @keyframes animateuser {
+        50%{
+            top: 0%;
+            right: 4%;
+        }
+    }
+    @keyframes animate {
+        50%{
+            top:50%;
+            left: 50%;
+        }
+    }
+    
 }
 @media(max-width:400px)
 {
